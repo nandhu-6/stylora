@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Stylora</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./style.css" rel="stylesheet">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- offer banner -->
+    <div id="offer-banner" class="offer-banner">
+        <p>Sign Up and <b>GET 20% OFF</b> for your first order</p>
+        <i id="close" class="fa-solid fa-xmark"></i>
+    </div>
+
+    <!-- menu bar -->
+    <div class="menu-bar">
+        <div class="title">
+            <p>Stylora</p>
+        </div>
+        <div class="menu-bar__right">
+            <a href="./index.html">Home</a>
+            <a href="#new-arrivals">New Arrival</a>
+            <a href="#most-wanted">Most Wanted</a>
+            <a href="./collection.html">Collections</a>
+            <a href="./contact.html">Contact Us</a>
+        </div>
+        <div class="menu-bar-toggle">
+            <i id="menu-bar-activate" class="fa-solid fa-bars" style="color:#1D232C;"></i>
+        </div>
+    </div>
+
+    <!-- side bar -->
+    <div class="side-bar">
+        <div class="side-bar-close"><i id="side-bar-close" class="fa-solid fa-xmark" style="color: white;"></i></div>
+        <div class="side-bar__content">
+            <a href="./index.html">Home</a>
+            <a href="#new-arrivals">New Arrival</a>
+            <a href="#most-wanted">Most Wanted</a>
+            <a href="./collection.html">Collections</a>
+            <a href="./contact.html">Contact Us</a>
+        </div>
+    </div>
+
+    <!-- collections -->
+    <div class="collections-container">
+        <div class="collections-left">
+            <h3>Occasion</h3>
+            <div class="checkbox">
+                <input type="checkbox" name="tags" value="summer"> Summer <br>
+                <input type="checkbox" name="tags" value="party"> Party <br>
+                <input type="checkbox" name="tags" value="formals"> Formals <br>
+            </div>
+            <h3>Colors</h3>
+            <div class="checkbox">
+                <input type="checkbox" name="tags" value="red"> Red <br>
+                <input type="checkbox" name="tags" value="blue"> Blue <br>
+                <input type="checkbox" name="tags" value="grey"> Grey <br>
+                <input type="checkbox" name="tags" value="white"> White <br>
+                <input type="checkbox" name="tags" value="brown"> Brown <br>
+            </div>
+            <h3>Gender</h3>
+            <div class="checkbox">
+                <input type="checkbox" name="tags" value="men"> Men <br>
+                <input type="checkbox" name="tags" value="women"> Women <br>
+            </div>
+
+        </div>
+
+        <div class="collections-right">
+            <input id="input" placeholder="search">
+            <div class="shirts">
+                <div class="shirt-card">
+                    <img src="./images/products/n7.jpg">
+                    <h3>Brown Slip Fit Shirt</h3>
+                    <p>&#8377;450</p>
+                </div>
+                <div class="shirt-card">
+                    <img src="./images/products/n4.jpg">
+                    <h3>Printed Shirt</h3>
+                    <p>&#8377;410</p>
+                </div>
+                <div class="shirt-card">
+                    <img src="./images/products/f4.jpg">
+                    <h3>Floral Summer Shirt</h3>
+                    <p>&#8377;420</p>
+                </div>
+                <div class="shirt-card">
+                    <img src="./images/products/n5.jpg">
+                    <h3>Blue Formal</h3>
+                    <p>&#8377;469</p>
+                </div>
+                <div class="shirt-card">
+                    <img src="./images/products/n3.jpg">
+                    <h3>White Shirt</h3>
+                    <p>&#8377;450</p>
+                </div>
+                <div class="shirt-card">
+                    <img src="./images/products/f8.jpg">
+                    <h3>Women Printed Top</h3>
+                    <p>&#8377;510</p>
+                </div>
+                <div class="shirt-card">
+                    <img src="./images/products/n6.jpg">
+                    <h3>Grey Trousers</h3>
+                    <p>&#8377;350</p>
+                </div>
+                <div class="shirt-card">
+                    <img src="./images/products/f6.jpg">
+                    <h3>Dual Colored Shirt</h3>
+                    <p>&#8377;499</p>
+                </div>
+                <div class="shirt-card">
+                    <img src="./images/products/f7.jpg">
+                    <h3>Women Trousers</h3>
+                    <p>&#8377;480</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- newsletter -->
+    <div class="newsletter">
+        <h1>Join our News Letter</h1>
+        <p>Signup for our email newspaper to get exclusive discounts, updates, and more </p>
+        <input class="input-newsletter"><br>
+        <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <h1>Stylora</h1>
+        <p>Crafted with Passion, Worn with Confidence.</p>
+        <div>
+            <i class="fa-brands fa-instagram" style="color:#DCD8DB;"></i>
+            <i class="fa-brands fa-x-twitter" style="color:#DCD8DB;"></i>
+            <i class="fa-brands fa-facebook" style="color:#DCD8DB;"></i>
+        </div>
+    </div>
+
+
+    <script src="./collection.js"></script>
+</body>
+
+</html>
